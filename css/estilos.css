@@ -70,3 +70,22 @@ h1 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
+
+@media (max-width: 600px)
+{
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  .main{
+    width: 90%;
+  }
+  .tecla {
+    width: auto;
+    height: 100px;
+  }
+
+  .booble span {
+    display: none;
+  }
+}
