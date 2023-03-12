@@ -14,11 +14,11 @@
 
 .bubbles span {
     position: relative;
-    width: 1rem;
-    height: 1rem;
+    width: 30px;
+    height: 30px;
     background: #ffc711;
     margin: 0 4px;
-    border-radius: .5rem;
+    border-radius: 15px;
     box-shadow: 0 0 0 10px #a1952844,
         0 0 50px #ffc711,
         0 0 100px #ffc711;
