@@ -1,9 +1,15 @@
 const tecla = document.querySelectorAll('.tecla');
 const audio = document.querySelectorAll('.audio');
-
+let flag = false;
 for(let i = 0; i < tecla.length; i++){
     tecla[i].onclick = function(){
-        audio[i].play();
+        flag = !flag
+        if(flag){
+            audio[i].play();
+        }
+        else{
+            audio[i].pause();
+        }
     }
 
 }
@@ -89,3 +95,4 @@ document.body.onkeyup = (event)=>{
         tecla[8].classList.remove('ativa')
     }
 }
+
